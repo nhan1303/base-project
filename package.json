@@ -1,0 +1,23 @@
+{
+  "name": "@health-app/core",
+  "private": true,
+  "workspaces": {
+    "packages": [
+      "packages/*",
+      "playgrounds/*"
+    ],
+    "nohoist": []
+  },
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "build": "yarn lerna run build",
+    "dev": "yarn lerna run dev"
+  },
+  "keywords": [],
+  "author": "Nhan Nguyen Thanh <nhan1303@gmail.com>",
+  "license": "ISC",
+  "devDependencies": {
+    "lerna": "6.0.3"
+  }
+}
